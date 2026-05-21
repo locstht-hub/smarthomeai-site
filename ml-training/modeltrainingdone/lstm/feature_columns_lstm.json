@@ -1,0 +1,19 @@
+[
+  "power_kw",
+  "reactive_power_kw",
+  "voltage",
+  "current_a",
+  "sub_metering_1",
+  "sub_metering_2",
+  "sub_metering_3",
+  "hour_sin",
+  "hour_cos",
+  "dow_sin",
+  "dow_cos",
+  "month_sin",
+  "month_cos",
+  "is_weekend",
+  "is_peak_evening",
+  "is_peak_midday",
+  "is_night"
+]

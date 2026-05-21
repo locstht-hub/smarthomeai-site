@@ -1,0 +1,41 @@
+{
+  "mode": "mock",
+  "allowMockOnPlcError": true,
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5001,
+    "debug": false
+  },
+  "plc": {
+    "host": "192.168.0.1",
+    "rack": 0,
+    "slot": 1,
+    "timeoutMs": 3000
+  },
+  "tags": {
+    "voltage": {
+      "name": "V1N",
+      "address": 200,
+      "type": "DWord",
+      "scale": 1.0
+    },
+    "current": {
+      "name": "I1N",
+      "address": 212,
+      "type": "DWord",
+      "scale": 1.0
+    },
+    "power_kw": {
+      "name": "Total kW",
+      "address": 224,
+      "type": "DWord",
+      "scale": 1.0
+    },
+    "energy_kwh": {
+      "name": "Total kWh",
+      "address": 228,
+      "type": "DWord",
+      "scale": 1.0
+    }
+  }
+}

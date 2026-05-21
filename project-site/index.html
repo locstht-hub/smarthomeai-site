@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Home AI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Smart Home AI">
+        <img src="assets/smart-home-logo.png" alt="Smart Home AI logo" />
+        <span>Smart Home AI</span>
+      </a>
+      <nav aria-label="Điều hướng">
+        <a href="#metrics">Thông số</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#assistant">Chatbot</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Đồ án Smart Home Energy Monitoring</p>
+          <h1>Giám sát điện năng và điều khiển nhà thông minh</h1>
+          <p class="lead">
+            Hệ thống dùng MFM384, PLC Siemens S7-1200 CPU 1215C, Smart Home Server API,
+            app Android và AI dự báo phụ tải để theo dõi điện năng theo thời gian thực.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#assistant">Hỏi chatbot</a>
+            <a class="secondary-action" href="#workflow">Xem workflow</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Giao diện app Smart Home AI">
+          <div class="device-shell">
+            <img src="assets/screen1.png" alt="Ảnh giao diện app Smart Home AI" />
+          </div>
+          <div class="signal-panel">
+            <span>PLC S7-1200</span>
+            <strong>CPU 1215C</strong>
+            <small>Ethernet -> Server API -> App</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="metrics" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Dữ liệu điện năng</p>
+          <h2>4 thông số chính đang đọc từ PLC</h2>
+        </div>
+        <div class="metric-grid" id="metricGrid"></div>
+      </section>
+
+      <section id="workflow" class="section alt-section">
+        <div class="section-heading">
+          <p class="eyebrow">Luồng dữ liệu</p>
+          <h2>Từ thiết bị đo đến app và website</h2>
+        </div>
+        <div class="workflow-list" id="workflowList"></div>
+      </section>
+
+      <section class="section two-column">
+        <div>
+          <p class="eyebrow">AI trong đồ án</p>
+          <h2>Dự báo phụ tải và hỏi đáp dự án</h2>
+          <p>
+            Phần dự báo dùng dữ liệu lịch sử điện năng để ước lượng xu hướng tiêu thụ.
+            Chatbot trên website dùng bộ kiến thức dự án để trả lời câu hỏi cho người xem.
+          </p>
+        </div>
+        <div class="feature-list">
+          <div>
+            <strong>Forecast</strong>
+            <span>XGBoost, RandomForest, LSTM, CNN-LSTM</span>
+          </div>
+          <div>
+            <strong>API riêng</strong>
+            <span>api.smarthomeai.id.vn qua Cloudflare Tunnel</span>
+          </div>
+          <div>
+            <strong>An toàn</strong>
+            <span>Website giới thiệu không gửi lệnh xuống PLC thật</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="assistant" class="section assistant-section">
+        <div class="section-heading">
+          <p class="eyebrow">AI Project Assistant</p>
+          <h2>Chatbot giải đáp thắc mắc về đồ án</h2>
+        </div>
+        <div class="assistant-layout">
+          <aside class="question-panel">
+            <h3>Câu hỏi gợi ý</h3>
+            <div id="suggestionList" class="suggestion-list"></div>
+          </aside>
+          <section class="chat-panel" aria-label="Chatbot hỏi đáp dự án">
+            <div id="chatLog" class="chat-log"></div>
+            <form id="chatForm" class="chat-form">
+              <input
+                id="chatInput"
+                type="text"
+                autocomplete="off"
+                placeholder="Nhập câu hỏi về PLC, MFM384, workflow, AI..."
+                aria-label="Nhập câu hỏi"
+              />
+              <button type="submit">Gửi</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Smart Home AI</span>
+      <span>Website giới thiệu tĩnh cho Cloudflare Pages</span>
+    </footer>
+
+    <script src="knowledge.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "mode": "mock",
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5001,
+    "debug": false
+  },
+  "plc": {
+    "host": "192.168.0.1",
+    "rack": 0,
+    "slot": 1
+  },
+  "powerTags": {
+    "voltage": { "name": "V1N", "address": 200, "type": "DWord", "scale": 1.0 },
+    "current": { "name": "I1N", "address": 212, "type": "DWord", "scale": 1.0 },
+    "power_kw": { "name": "Total kW", "address": 224, "type": "DWord", "scale": 1.0 },
+    "energy_kwh": { "name": "Total kWh", "address": 228, "type": "DWord", "scale": 1.0 }
+  },
+  "devices": [
+    { "id": "living_main_light", "roomId": "living", "name": "Den chinh phong khach", "type": "light", "power": 45, "statusTag": "M100.0", "commandTag": "M110.0" },
+    { "id": "living_ambient_light", "roomId": "living", "name": "Den hat phong khach", "type": "light", "power": 25, "statusTag": "M100.1", "commandTag": "M110.1" },
+    { "id": "living_ceiling_fan", "roomId": "living", "name": "Quat tran phong khach", "type": "fan", "power": 80, "statusTag": "M100.2", "commandTag": "M110.2" },
+    { "id": "bedroom_ac", "roomId": "bedroom", "name": "May lanh phong ngu", "type": "ac", "power": 900, "statusTag": "M100.3", "commandTag": "M110.3" },
+    { "id": "bedroom_light", "roomId": "bedroom", "name": "Den ngu", "type": "light", "power": 15, "statusTag": "M100.4", "commandTag": "M110.4" },
+    { "id": "kitchen_light", "roomId": "kitchen", "name": "Den bep", "type": "light", "power": 35, "statusTag": "M100.5", "commandTag": "M110.5" },
+    { "id": "kitchen_exhaust_fan", "roomId": "kitchen", "name": "Quat hut bep", "type": "fan", "power": 150, "statusTag": "M100.6", "commandTag": "M110.6" },
+    { "id": "kitchen_fridge_outlet", "roomId": "kitchen", "name": "O cam tu lanh", "type": "outlet", "power": 150, "statusTag": "M100.7", "commandTag": "M110.7" },
+    { "id": "garage_light", "roomId": "garage", "name": "Den garage", "type": "light", "power": 60, "statusTag": "M101.0", "commandTag": "M111.0" },
+    { "id": "garage_door_motor", "roomId": "garage", "name": "Cua cuon garage", "type": "outlet", "power": 500, "statusTag": "M101.1", "commandTag": "M111.1" }
+  ]
+}

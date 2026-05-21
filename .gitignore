@@ -1,0 +1,79 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+*.apk
+*.aab
+/eas_build_log.txt
+/emulator_*
+/screen1.png
+/test_screen.png
+/SMART_HOME_APP_SOURCE_FOR_GPT.txt
+/project-site-upload.zip
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local runtime config/state
+backend/**/config.json
+backend/**/power_config.json
+backend/**/device_state.json
+
+# Local agent/tool scratch
+.codex-temp/
+.tmp-*.ps1
+
+# ML/model artifacts that are too large for GitHub
+*.joblib
+*.keras
+ml-training/**/model_artifacts.zip
+
+# Generated build outputs
+android/
+ios/
+build/
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android

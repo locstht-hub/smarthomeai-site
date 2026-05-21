@@ -1,0 +1,80 @@
+{"instruction":"Công suất hiện tại bao nhiêu?","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Nhà đang dùng bao nhiêu kW?","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Mức tiêu thụ điện hiện tại là bao nhiêu?","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Cho tôi xem công suất bây giờ","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Điện năng hiện tại thế nào?","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Hệ thống đang tiêu thụ bao nhiêu điện?","output":"{\"intent\":\"get_power_current\"}"}
+{"instruction":"Tắt tất cả thiết bị","output":"{\"intent\":\"turn_off_all\"}"}
+{"instruction":"Tắt hết thiết bị đi","output":"{\"intent\":\"turn_off_all\"}"}
+{"instruction":"Ngắt toàn bộ điện không cần thiết","output":"{\"intent\":\"turn_off_all\"}"}
+{"instruction":"Tôi ra ngoài rồi, tắt hết thiết bị","output":"{\"intent\":\"turn_off_all\"}"}
+{"instruction":"Bật tất cả thiết bị","output":"{\"intent\":\"turn_on_all\"}"}
+{"instruction":"Mở toàn bộ thiết bị","output":"{\"intent\":\"turn_on_all\"}"}
+{"instruction":"Bật chế độ ngủ","output":"{\"intent\":\"apply_scene\",\"scene\":\"sleep\"}"}
+{"instruction":"Tôi đi ngủ rồi","output":"{\"intent\":\"apply_scene\",\"scene\":\"sleep\"}"}
+{"instruction":"Kích hoạt cảnh ngủ","output":"{\"intent\":\"apply_scene\",\"scene\":\"sleep\"}"}
+{"instruction":"Tắt đèn và quạt để ngủ","output":"{\"intent\":\"apply_scene\",\"scene\":\"sleep\"}"}
+{"instruction":"Bật chế độ đi làm","output":"{\"intent\":\"apply_scene\",\"scene\":\"work\"}"}
+{"instruction":"Tôi ra khỏi nhà","output":"{\"intent\":\"apply_scene\",\"scene\":\"work\"}"}
+{"instruction":"Bật chế độ vắng nhà","output":"{\"intent\":\"apply_scene\",\"scene\":\"work\"}"}
+{"instruction":"Bật cảnh buổi sáng","output":"{\"intent\":\"apply_scene\",\"scene\":\"morning\"}"}
+{"instruction":"Chào buổi sáng, bật nhà lên","output":"{\"intent\":\"apply_scene\",\"scene\":\"morning\"}"}
+{"instruction":"Bật chế độ cuối tuần","output":"{\"intent\":\"apply_scene\",\"scene\":\"weekend\"}"}
+{"instruction":"Bật đèn chính phòng khách","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"living_main_light\"}"}
+{"instruction":"Mở đèn phòng khách","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"living_main_light\"}"}
+{"instruction":"Tắt đèn chính phòng khách","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"living_main_light\"}"}
+{"instruction":"Tắt đèn phòng khách","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"living_main_light\"}"}
+{"instruction":"Bật đèn hắt phòng khách","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"living_ambient_light\"}"}
+{"instruction":"Tắt đèn hắt phòng khách","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"living_ambient_light\"}"}
+{"instruction":"Bật quạt trần phòng khách","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"living_ceiling_fan\"}"}
+{"instruction":"Mở quạt phòng khách","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"living_ceiling_fan\"}"}
+{"instruction":"Tắt quạt trần phòng khách","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"living_ceiling_fan\"}"}
+{"instruction":"Tắt quạt phòng khách","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"living_ceiling_fan\"}"}
+{"instruction":"Bật máy lạnh phòng ngủ","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"bedroom_ac\"}"}
+{"instruction":"Mở điều hòa phòng ngủ","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"bedroom_ac\"}"}
+{"instruction":"Tắt máy lạnh phòng ngủ","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"bedroom_ac\"}"}
+{"instruction":"Tắt điều hòa phòng ngủ","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"bedroom_ac\"}"}
+{"instruction":"Bật đèn ngủ","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"bedroom_light\"}"}
+{"instruction":"Bật đèn phòng ngủ","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"bedroom_light\"}"}
+{"instruction":"Tắt đèn ngủ","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"bedroom_light\"}"}
+{"instruction":"Tắt đèn phòng ngủ","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"bedroom_light\"}"}
+{"instruction":"Bật đèn bếp","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_light\"}"}
+{"instruction":"Mở đèn nhà bếp","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_light\"}"}
+{"instruction":"Tắt đèn bếp","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_light\"}"}
+{"instruction":"Tắt đèn nhà bếp","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_light\"}"}
+{"instruction":"Bật quạt hút bếp","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_exhaust_fan\"}"}
+{"instruction":"Mở quạt hút nhà bếp","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_exhaust_fan\"}"}
+{"instruction":"Tắt quạt hút bếp","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_exhaust_fan\"}"}
+{"instruction":"Tắt quạt nhà bếp","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_exhaust_fan\"}"}
+{"instruction":"Bật ổ cắm tủ lạnh","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_fridge_outlet\"}"}
+{"instruction":"Mở nguồn tủ lạnh","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"kitchen_fridge_outlet\"}"}
+{"instruction":"Tắt ổ cắm tủ lạnh","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_fridge_outlet\"}"}
+{"instruction":"Ngắt nguồn tủ lạnh","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"kitchen_fridge_outlet\"}"}
+{"instruction":"Bật đèn garage","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"garage_light\"}"}
+{"instruction":"Bật đèn gara","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"garage_light\"}"}
+{"instruction":"Tắt đèn garage","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"garage_light\"}"}
+{"instruction":"Tắt đèn gara","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"garage_light\"}"}
+{"instruction":"Bật cửa cuốn garage","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"garage_door_motor\"}"}
+{"instruction":"Mở motor cửa cuốn","output":"{\"intent\":\"turn_on_device\",\"device_id\":\"garage_door_motor\"}"}
+{"instruction":"Tắt cửa cuốn garage","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"garage_door_motor\"}"}
+{"instruction":"Ngắt motor cửa cuốn","output":"{\"intent\":\"turn_off_device\",\"device_id\":\"garage_door_motor\"}"}
+{"instruction":"Bật tất cả đèn phòng khách","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"room_id\":\"living\",\"device_type\":\"light\"}"}
+{"instruction":"Tắt tất cả đèn phòng khách","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"room_id\":\"living\",\"device_type\":\"light\"}"}
+{"instruction":"Bật tất cả thiết bị phòng ngủ","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"room_id\":\"bedroom\"}"}
+{"instruction":"Tắt tất cả thiết bị phòng ngủ","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"room_id\":\"bedroom\"}"}
+{"instruction":"Bật toàn bộ nhà bếp","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"room_id\":\"kitchen\"}"}
+{"instruction":"Tắt toàn bộ nhà bếp","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"room_id\":\"kitchen\"}"}
+{"instruction":"Bật toàn bộ garage","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"room_id\":\"garage\"}"}
+{"instruction":"Tắt toàn bộ garage","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"room_id\":\"garage\"}"}
+{"instruction":"Tắt tất cả đèn trong nhà","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"device_type\":\"light\"}"}
+{"instruction":"Bật tất cả đèn trong nhà","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"device_type\":\"light\"}"}
+{"instruction":"Tắt hết quạt","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":false,\"device_type\":\"fan\"}"}
+{"instruction":"Bật hết quạt","output":"{\"intent\":\"set_filtered_devices\",\"is_on\":true,\"device_type\":\"fan\"}"}
+{"instruction":"Liệt kê thiết bị trong nhà","output":"{\"intent\":\"list_devices\"}"}
+{"instruction":"Nhà có những thiết bị nào?","output":"{\"intent\":\"list_devices\"}"}
+{"instruction":"Tối nay có dùng điện nhiều không?","output":"{\"intent\":\"get_forecast\"}"}
+{"instruction":"Dự báo phụ tải 24 giờ tới","output":"{\"intent\":\"get_forecast\"}"}
+{"instruction":"Ngày mai điện tiêu thụ thế nào?","output":"{\"intent\":\"get_forecast\"}"}
+{"instruction":"Cho tôi xem dự báo công suất","output":"{\"intent\":\"get_forecast\"}"}
+{"instruction":"Xin chào","output":"{\"intent\":\"unknown\"}"}
+{"instruction":"Bạn là ai?","output":"{\"intent\":\"unknown\"}"}
